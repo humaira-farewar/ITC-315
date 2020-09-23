@@ -10,11 +10,15 @@ public class Exercise5 {
    
   System.out.print("Input second number: ");
   int num2 = in.nextInt();
+  System.out.print("Input second number: ");
+  int num3 = in.nextInt();
   
-  System.out.println("Hi world!"); 
-  System.out.println(num1 + " x " + num2 + " = " + num1 * num2);
+  System.out.println("Hi world!");
+  
+  System.out.println(num1 + " x " + num2 +  " x " + num3 +  " = " + num1 * num2 *num3);
   System.out.println(num1 +" + "+num2+" = "+ (num1+num2));
   System.out.println(num1 +" / "+num2+" = "+ (num1/num2));
+  
   
   
                      
